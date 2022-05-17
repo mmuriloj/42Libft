@@ -1,0 +1,1722 @@
+
+
+= Host-specific information ====================================================
+$> hostname; uname -msr
+mouli-worker-1
+Linux 5.4.0-80-generic x86_64
+$> date
+Sun 15 May 2022 04:17:05 PM UTC
+$> gcc --version
+gcc (Ubuntu 10.3.0-1ubuntu1~20.04) 10.3.0
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+$> clang --version
+Ubuntu clang version 12.0.1-++20211029101322+fed41342a82f-1~exp1~20211029221816.4
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: git@vogsphere-v2.42sp.org.br:vogsphere/intra-uuid-a93ebb86-b2ad-4e05-8c2a-c977115e7e9f-4080939-mumontei
+
+= Git history ==================================================================
+$> git -C /tmp/tmpcku0irf3/user log --pretty='%H - %an, %ad : %s'
+fa38d8205c6647b083f0e5d1d973aa7090c6aacd - mumontei, Sun May 15 00:57:46 2022 +0200 : 42libft
+ 
+= Collected files ==========================================
+$> ls -lAR /tmp/tmpcku0irf3/user
+/tmp/tmpcku0irf3/user:
+total 148
+-rw-r--r-- 1 root root 1323 May 15 16:17 ft_atoi.c
+-rw-r--r-- 1 root root 1015 May 15 16:17 ft_bzero.c
+-rw-r--r-- 1 root root 1198 May 15 16:17 ft_calloc.c
+-rw-r--r-- 1 root root 1002 May 15 16:17 ft_isalnum.c
+-rw-r--r-- 1 root root  997 May 15 16:17 ft_isalpha.c
+-rw-r--r-- 1 root root  977 May 15 16:17 ft_isascii.c
+-rw-r--r-- 1 root root  970 May 15 16:17 ft_isdigit.c
+-rw-r--r-- 1 root root  971 May 15 16:17 ft_isprint.c
+-rw-r--r-- 1 root root 1633 May 15 16:17 ft_itoa.c
+-rw-r--r-- 1 root root 1093 May 15 16:17 ft_memchr.c
+-rw-r--r-- 1 root root 1214 May 15 16:17 ft_memcmp.c
+-rw-r--r-- 1 root root 1159 May 15 16:17 ft_memcpy.c
+-rw-r--r-- 1 root root 1289 May 15 16:17 ft_memmove.c
+-rw-r--r-- 1 root root 1051 May 15 16:17 ft_memset.c
+-rw-r--r-- 1 root root  970 May 15 16:17 ft_putchar_fd.c
+-rw-r--r-- 1 root root 1022 May 15 16:17 ft_putendl_fd.c
+-rw-r--r-- 1 root root 1183 May 15 16:17 ft_putnbr_fd.c
+-rw-r--r-- 1 root root 1000 May 15 16:17 ft_putstr_fd.c
+-rw-r--r-- 1 root root 1399 May 15 16:17 ft_split.c
+-rw-r--r-- 1 root root 1108 May 15 16:17 ft_strchr.c
+-rw-r--r-- 1 root root 1149 May 15 16:17 ft_strdup.c
+-rw-r--r-- 1 root root 1103 May 15 16:17 ft_striteri.c
+-rw-r--r-- 1 root root 1288 May 15 16:17 ft_strjoin.c
+-rw-r--r-- 1 root root 1326 May 15 16:17 ft_strlcat.c
+-rw-r--r-- 1 root root 1185 May 15 16:17 ft_strlcpy.c
+-rw-r--r-- 1 root root 1025 May 15 16:17 ft_strlen.c
+-rw-r--r-- 1 root root 1268 May 15 16:17 ft_strmapi.c
+-rw-r--r-- 1 root root 1158 May 15 16:17 ft_strncmp.c
+-rw-r--r-- 1 root root 1294 May 15 16:17 ft_strnstr.c
+-rw-r--r-- 1 root root 1155 May 15 16:17 ft_strrchr.c
+-rw-r--r-- 1 root root 1255 May 15 16:17 ft_strtrim.c
+-rw-r--r-- 1 root root 1376 May 15 16:17 ft_substr.c
+-rw-r--r-- 1 root root  970 May 15 16:17 ft_tolower.c
+-rw-r--r-- 1 root root  971 May 15 16:17 ft_toupper.c
+-rw-r--r-- 1 root root 1942 May 15 16:17 __GIT_HISTORY
+-rw-r--r-- 1 root root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 root root 1674 May 15 16:17 Makefile
+ 
+= initial_errors ===============================================================
+.:
+total 148
+-rw-r--r-- 1 deepthought root 1674 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 1942 May 15 16:17 __GIT_HISTORY
+-rw-r--r-- 1 deepthought root 1323 May 15 16:17 ft_atoi.c
+-rw-r--r-- 1 deepthought root 1015 May 15 16:17 ft_bzero.c
+-rw-r--r-- 1 deepthought root 1198 May 15 16:17 ft_calloc.c
+-rw-r--r-- 1 deepthought root 1002 May 15 16:17 ft_isalnum.c
+-rw-r--r-- 1 deepthought root  997 May 15 16:17 ft_isalpha.c
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 ft_isascii.c
+-rw-r--r-- 1 deepthought root  970 May 15 16:17 ft_isdigit.c
+-rw-r--r-- 1 deepthought root  971 May 15 16:17 ft_isprint.c
+-rw-r--r-- 1 deepthought root 1633 May 15 16:17 ft_itoa.c
+-rw-r--r-- 1 deepthought root 1093 May 15 16:17 ft_memchr.c
+-rw-r--r-- 1 deepthought root 1214 May 15 16:17 ft_memcmp.c
+-rw-r--r-- 1 deepthought root 1159 May 15 16:17 ft_memcpy.c
+-rw-r--r-- 1 deepthought root 1289 May 15 16:17 ft_memmove.c
+-rw-r--r-- 1 deepthought root 1051 May 15 16:17 ft_memset.c
+-rw-r--r-- 1 deepthought root  970 May 15 16:17 ft_
+putchar_fd.c
+-rw-r--r-- 1 deepthought root 1022 May 15 16:17 ft_putendl_fd.c
+-rw-r--r-- 1 deepthought root 1183 May 15 16:17 ft_putnbr_fd.c
+-rw-r--r-- 1 deepthought root 1000 May 15 16:17 ft_putstr_fd.c
+-rw-r--r-- 1 deepthought root 1399 May 15 16:17 ft_split.c
+-rw-r--r-- 1 deepthought root 1108 May 15 16:17 ft_strchr.c
+-rw-r--r-- 1 deepthought root 1149 May 15 16:17 ft_strdup.c
+-rw-r--r-- 1 deepthought root 1103 May 15 16:17 ft_striteri.c
+-rw-r--r-- 1 deepthought root 1288 May 15 16:17 ft_strjoin.c
+-rw-r--r-- 1 deepthought root 1326 May 15 16:17 ft_strlcat.c
+-rw-r--r-- 1 deepthought root 1185 May 15 16:17 ft_strlcpy.c
+-rw-r--r-- 1 deepthought root 1025 May 15 16:17 ft_strlen.c
+-rw-r--r-- 1 deepthought root 1268 May 15 16:17 ft_strmapi.c
+-rw-r--r-- 1 deepthought root 1158 May 15 16:17 ft_strncmp.c
+-rw-r--r-- 1 deepthought root 1294 May 15 16:17 ft_strnstr.c
+-rw-r--r-- 1 deepthought root 1155 May 15 16:17 ft_strrchr.c
+-rw-r--r-- 1 deepthought root 1255 May 15 16:17 ft_strtrim.c
+-rw-r--r-- 1 deepthought root 13
+76 May 15 16:17 ft_substr.c
+-rw-r--r-- 1 deepthought root  970 May 15 16:17 ft_tolower.c
+-rw-r--r-- 1 deepthought root  971 May 15 16:17 ft_toupper.c
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_split.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_striteri.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_strnstr.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_strjoin.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_strdup.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_isalnum.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_strlcat.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_itoa.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_memcmp.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_strmapi.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_isalpha.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_tolower.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_putendl_fd.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_memset.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_strrchr.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_atoi.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_strchr.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_putnbr_fd.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_substr.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_strtrim.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_strlcpy.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_memchr.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_putchar_fd.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_isdigit.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_strlen.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_strncmp.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_toupper.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_isprint.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_putstr_fd.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_bzero.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_calloc.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_memcpy.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_memmove.c -o compil_single_output 
+
+
+$> gcc -Wextra -Wall -Werror -Wall -Wextra -Werror -c ft_isascii.c -o compil_single_output 
+
+
+$> /usr/bin/norminette  ft_split.c libft.h ft_striteri.c ft_strnstr.c ft_strjoin.c ft_strdup.c ft_isalnum.c ft_strlcat.c ft_itoa.c ft_memcmp.c ft_strmapi.c ft_isalpha.c ft_tolower.c ft_putendl_fd.c ft_memset.c ft_strrchr.c ft_atoi.c ft_strchr.c ft_putnbr_fd.c ft_substr.c ft_strtrim.c ft_strlcpy.c ft_memchr.c ft_putchar_fd.c ft_isdigit.c ft_strlen.c ft_strncmp.c ft_toupper.c ft_isprint.c ft_putstr_fd.c ft_bzero.c ft_calloc.c ft_memcpy.c ft_memmove.c ft_isascii.c | grep -E '^(Error|Warning)'
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_substr
+malloc
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_strlen
+
+
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_strlen
+malloc
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_memcpy
+ft_strlen
+malloc
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_isalpha
+ft_isdigit
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_strlen
+
+
+
+_GLOBAL_OFFSET_TABLE_
+malloc
+
+
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_strlen
+malloc
+
+
+
+
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_strlen
+write
+
+
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_strlen
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_isdigit
+
+
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_putchar_fd
+write
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_strlen
+malloc
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_calloc
+ft_strchr
+ft_strlen
+ft_substr
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_strlen
+
+
+
+
+
+_GLOBAL_OFFSET_TABLE_
+write
+
+
+
+
+
+
+
+
+
+
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_strlen
+write
+
+
+
+
+
+_GLOBAL_OFFSET_TABLE_
+ft_bzero
+malloc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.:
+total 144
+-rw-r--r-- 1 deepthought root 1674 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 1323 May 15 16:17 ft_atoi.c
+-rw-r--r-- 1 deepthought root 1015 May 15 16:17 ft_bzero.c
+-rw-r--r-- 1 deepthought root 1198 May 15 16:17 ft_calloc.c
+-rw-r--r-- 1 deepthought root 1002 May 15 16:17 ft_isalnum.c
+-rw-r--r-- 1 deepthought root  997 May 15 16:17 ft_isalpha.c
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 ft_isascii.c
+-rw-r--r-- 1 deepthought root  970 May 15 16:17 ft_isdigit.c
+-rw-r--r-- 1 deepthought root  971 May 15 16:17 ft_isprint.c
+-rw-r--r-- 1 deepthought root 1633 May 15 16:17 ft_itoa.c
+-rw-r--r-- 1 deepthought root 1093 May 15 16:17 ft_memchr.c
+-rw-r--r-- 1 deepthought root 1214 May 15 16:17 ft_memcmp.c
+-rw-r--r-- 1 deepthought root 1159 May 15 16:17 ft_memcpy.c
+-rw-r--r-- 1 deepthought root 1289 May 15 16:17 ft_memmove.c
+-rw-r--r-- 1 deepthought root 1051 May 15 16:17 ft_memset.c
+-rw-r--r-- 1 deepthought root  970 May 15 16:17 ft_putchar_fd.c
+-rw-r--r-- 1 deepthought root 1022 May 15 16:17 f
+t_putendl_fd.c
+-rw-r--r-- 1 deepthought root 1183 May 15 16:17 ft_putnbr_fd.c
+-rw-r--r-- 1 deepthought root 1000 May 15 16:17 ft_putstr_fd.c
+-rw-r--r-- 1 deepthought root 1399 May 15 16:17 ft_split.c
+-rw-r--r-- 1 deepthought root 1108 May 15 16:17 ft_strchr.c
+-rw-r--r-- 1 deepthought root 1149 May 15 16:17 ft_strdup.c
+-rw-r--r-- 1 deepthought root 1103 May 15 16:17 ft_striteri.c
+-rw-r--r-- 1 deepthought root 1288 May 15 16:17 ft_strjoin.c
+-rw-r--r-- 1 deepthought root 1326 May 15 16:17 ft_strlcat.c
+-rw-r--r-- 1 deepthought root 1185 May 15 16:17 ft_strlcpy.c
+-rw-r--r-- 1 deepthought root 1025 May 15 16:17 ft_strlen.c
+-rw-r--r-- 1 deepthought root 1268 May 15 16:17 ft_strmapi.c
+-rw-r--r-- 1 deepthought root 1158 May 15 16:17 ft_strncmp.c
+-rw-r--r-- 1 deepthought root 1294 May 15 16:17 ft_strnstr.c
+-rw-r--r-- 1 deepthought root 1155 May 15 16:17 ft_strrchr.c
+-rw-r--r-- 1 deepthought root 1255 May 15 16:17 ft_strtrim.c
+-rw-r--r-- 1 deepthought root 1376 May 15 16:17 ft_substr.c
+-rw-r--r-- 1 deepthought root  970
+ May 15 16:17 ft_tolower.c
+-rw-r--r-- 1 deepthought root  971 May 15 16:17 ft_toupper.c
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+
+
+
+
+.:
+total 144
+-rw-r--r-- 1 deepthought root 1674 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 1323 May 15 16:17 ft_atoi.c
+-rw-r--r-- 1 deepthought root 1015 May 15 16:17 ft_bzero.c
+-rw-r--r-- 1 deepthought root 1198 May 15 16:17 ft_calloc.c
+-rw-r--r-- 1 deepthought root 1002 May 15 16:17 ft_isalnum.c
+-rw-r--r-- 1 deepthought root  997 May 15 16:17 ft_isalpha.c
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 ft_isascii.c
+-rw-r--r-- 1 deepthought root  970 May 15 16:17 ft_isdigit.c
+-rw-r--r-- 1 deepthought root  971 May 15 16:17 ft_isprint.c
+-rw-r--r-- 1 deepthought root 1633 May 15 16:17 ft_itoa.c
+-rw-r--r-- 1 deepthought root 1093 May 15 16:17 ft_memchr.c
+-rw-r--r-- 1 deepthought root 1214 May 15 16:17 ft_memcmp.c
+-rw-r--r-- 1 deepthought root 1159 May 15 16:17 ft_memcpy.c
+-rw-r--r-- 1 deepthought root 1289 May 15 16:17 ft_memmove.c
+-rw-r--r-- 1 deepthought root 1051 May 15 16:17 ft_memset.c
+-rw-r--r-- 1 deepthought root  970 May 15 16:17 ft_putchar_fd.c
+-rw-r--r-- 1 deepthought root 1022 May 15 16:17 f
+t_putendl_fd.c
+-rw-r--r-- 1 deepthought root 1183 May 15 16:17 ft_putnbr_fd.c
+-rw-r--r-- 1 deepthought root 1000 May 15 16:17 ft_putstr_fd.c
+-rw-r--r-- 1 deepthought root 1399 May 15 16:17 ft_split.c
+-rw-r--r-- 1 deepthought root 1108 May 15 16:17 ft_strchr.c
+-rw-r--r-- 1 deepthought root 1149 May 15 16:17 ft_strdup.c
+-rw-r--r-- 1 deepthought root 1103 May 15 16:17 ft_striteri.c
+-rw-r--r-- 1 deepthought root 1288 May 15 16:17 ft_strjoin.c
+-rw-r--r-- 1 deepthought root 1326 May 15 16:17 ft_strlcat.c
+-rw-r--r-- 1 deepthought root 1185 May 15 16:17 ft_strlcpy.c
+-rw-r--r-- 1 deepthought root 1025 May 15 16:17 ft_strlen.c
+-rw-r--r-- 1 deepthought root 1268 May 15 16:17 ft_strmapi.c
+-rw-r--r-- 1 deepthought root 1158 May 15 16:17 ft_strncmp.c
+-rw-r--r-- 1 deepthought root 1294 May 15 16:17 ft_strnstr.c
+-rw-r--r-- 1 deepthought root 1155 May 15 16:17 ft_strrchr.c
+-rw-r--r-- 1 deepthought root 1255 May 15 16:17 ft_strtrim.c
+-rw-r--r-- 1 deepthought root 1376 May 15 16:17 ft_substr.c
+-rw-r--r-- 1 deepthought root  970
+ May 15 16:17 ft_tolower.c
+-rw-r--r-- 1 deepthought root  971 May 15 16:17 ft_toupper.c
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+
+
+TERM environment variable not set.
+make: *** [Makefile:39: clean] Error 1
+
+
+TERM environment variable not set.
+make: *** [Makefile:39: clean] Error 1
+
+Grade: 0
+
+= test_ft_isalnum ==============================================================
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 1261 May 15 16:17 test_ft_isalnum.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_isalnum.c with your library)
+Grade: 0
+
+= test_ft_isalpha ==============================================================
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 1260 May 15 16:17 test_ft_isalpha.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_isalpha.c with your library)
+Grade: 0
+
+= test_ft_isascii ==============================================================
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 1263 May 15 16:17 test_ft_isascii.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_isascii.c with your library)
+Grade: 0
+
+= test_ft_isdigit ==============================================================
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 1260 May 15 16:17 test_ft_isdigit.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_isdigit.c with your library)
+Grade: 0
+
+= test_ft_isprint ==============================================================
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 1260 May 15 16:17 test_ft_isprint.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_isprint.c with your library)
+Grade: 0
+
+= test_ft_atoi =================================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 2611 May 15 16:17 test_ft_atoi.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_atoi.c with your library)
+Grade: 0
+
+= test_ft_bzero ================================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 3340 May 15 16:17 test_ft_bzero.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_bzero.c with your library)
+Grade: 0
+
+= test_ft_calloc ===============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 3216 May 15 16:17 test_ft_calloc.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_calloc.c with your library)
+Grade: 0
+
+= test_ft_itoa =================================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 2906 May 15 16:17 test_ft_itoa.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_itoa.c with your library)
+Grade: 0
+
+= test_ft_memchr ===============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 2814 May 15 16:17 test_ft_memchr.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_memchr.c with your library)
+Grade: 0
+
+= test_ft_memcmp ===============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 3953 May 15 16:17 test_ft_memcmp.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_memcmp.c with your library)
+Grade: 0
+
+= test_ft_memcpy ===============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 3439 May 15 16:17 test_ft_memcpy.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_memcpy.c with your library)
+Grade: 0
+
+= test_ft_memmove ==============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 4267 May 15 16:17 test_ft_memmove.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_memmove.c with your library)
+Grade: 0
+
+= test_ft_memset ===============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 3694 May 15 16:17 test_ft_memset.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_memset.c with your library)
+Grade: 0
+
+= test_ft_putchar_fd ===========================================================
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 1869 May 15 16:17 test_ft_putchar_fd.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_putchar_fd.c with your library)
+Grade: 0
+
+= test_ft_putendl_fd ===========================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 5208 May 15 16:17 test_ft_putendl_fd.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_putendl_fd.c with your library)
+Grade: 0
+
+= test_ft_putnbr_fd ============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 2862 May 15 16:17 test_ft_putnbr_fd.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_putnbr_fd.c with your library)
+Grade: 0
+
+= test_ft_putstr_fd ============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 1977 May 15 16:17 test_ft_putstr_fd.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_putstr_fd.c with your library)
+Grade: 0
+
+= test_ft_split ================================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 6788 May 15 16:17 test_ft_split.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_split.c with your library)
+Grade: 0
+
+= test_ft_strchr ===============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 4950 May 15 16:17 test_ft_strchr.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_strchr.c with your library)
+Grade: 0
+
+= test_ft_strdup ===============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 5301 May 15 16:17 test_ft_strdup.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_strdup.c with your library)
+Grade: 0
+
+= test_ft_strjoin ==============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 36
+-rw-r--r-- 1 deepthought root   977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root  2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root  2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 13614 May 15 16:17 test_ft_strjoin.c
+-rw-r--r-- 1 deepthought root   969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root  1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_strjoin.c with your library)
+Grade: 0
+
+= test_ft_strlcat ==============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 6138 May 15 16:17 test_ft_strlcat.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_strlcat.c with your library)
+Grade: 0
+
+= test_ft_strlcpy ==============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 5652 May 15 16:17 test_ft_strlcpy.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_strlcpy.c with your library)
+Grade: 0
+
+= test_ft_strlen ===============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 4518 May 15 16:17 test_ft_strlen.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_strlen.c with your library)
+Grade: 0
+
+= test_ft_strmapi ==============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 5016 May 15 16:17 test_ft_strmapi.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_strmapi.c with your library)
+Grade: 0
+
+= test_ft_striteri =============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 16
+-rw-r--r-- 1 deepthought root  950 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 4912 May 15 16:17 test_ft_striteri.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_striteri.c with your library)
+Grade: 0
+
+= test_ft_strncmp ==============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 2896 May 15 16:17 test_ft_strncmp.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_strncmp.c with your library)
+Grade: 0
+
+= test_ft_strnstr ==============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 3002 May 15 16:17 test_ft_strnstr.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_strnstr.c with your library)
+Grade: 0
+
+= test_ft_strrchr ==============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 4679 May 15 16:17 test_ft_strrchr.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_strrchr.c with your library)
+Grade: 0
+
+= test_ft_strtrim ==============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 5702 May 15 16:17 test_ft_strtrim.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_strtrim.c with your library)
+Grade: 0
+
+= test_ft_substr ===============================================================
+
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 28
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 5221 May 15 16:17 test_ft_substr.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_substr.c with your library)
+Grade: 0
+
+= test_ft_tolower ==============================================================
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 1699 May 15 16:17 test_ft_tolower.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_tolower.c with your library)
+Grade: 0
+
+= test_ft_toupper ==============================================================
+$> cp /tmp/tmpcku0irf3/ref/libft.a libft.a
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+
+cp: cannot stat '/tmp/tmpcku0irf3/ref/libft.a': No such file or directory
+
+.:
+total 0
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+
+ls: cannot access 'libft.a': No such file or directory
+
+.:
+total 24
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+-rw-r--r-- 1 deepthought root 2754 May 15 16:17 malloc.c
+-rw-r--r-- 1 deepthought root 1701 May 15 16:17 test_ft_toupper.c
+-rw-r--r-- 1 deepthought root  969 May 15 16:17 tests.h
+-rw-r--r-- 1 deepthought root 1362 May 15 16:17 true_allocations.c
+
+
+/usr/bin/ld: cannot find -lft
+collect2: error: ld returned 1 exit status
+
+
+KO (Could not compile test executable for ft_toupper.c with your library)
+Grade: 0
+
+= bonus ========================================================================
+
+.:
+total 144
+-rw-r--r-- 1 deepthought root 1674 May 15 16:17 Makefile
+-rw-r--r-- 1 deepthought root 1323 May 15 16:17 ft_atoi.c
+-rw-r--r-- 1 deepthought root 1015 May 15 16:17 ft_bzero.c
+-rw-r--r-- 1 deepthought root 1198 May 15 16:17 ft_calloc.c
+-rw-r--r-- 1 deepthought root 1002 May 15 16:17 ft_isalnum.c
+-rw-r--r-- 1 deepthought root  997 May 15 16:17 ft_isalpha.c
+-rw-r--r-- 1 deepthought root  977 May 15 16:17 ft_isascii.c
+-rw-r--r-- 1 deepthought root  970 May 15 16:17 ft_isdigit.c
+-rw-r--r-- 1 deepthought root  971 May 15 16:17 ft_isprint.c
+-rw-r--r-- 1 deepthought root 1633 May 15 16:17 ft_itoa.c
+-rw-r--r-- 1 deepthought root 1093 May 15 16:17 ft_memchr.c
+-rw-r--r-- 1 deepthought root 1214 May 15 16:17 ft_memcmp.c
+-rw-r--r-- 1 deepthought root 1159 May 15 16:17 ft_memcpy.c
+-rw-r--r-- 1 deepthought root 1289 May 15 16:17 ft_memmove.c
+-rw-r--r-- 1 deepthought root 1051 May 15 16:17 ft_memset.c
+-rw-r--r-- 1 deepthought root  970 May 15 16:17 ft_putchar_fd.c
+-rw-r--r-- 1 deepthought root 1022 May 15 16:17 f
+t_putendl_fd.c
+-rw-r--r-- 1 deepthought root 1183 May 15 16:17 ft_putnbr_fd.c
+-rw-r--r-- 1 deepthought root 1000 May 15 16:17 ft_putstr_fd.c
+-rw-r--r-- 1 deepthought root 1399 May 15 16:17 ft_split.c
+-rw-r--r-- 1 deepthought root 1108 May 15 16:17 ft_strchr.c
+-rw-r--r-- 1 deepthought root 1149 May 15 16:17 ft_strdup.c
+-rw-r--r-- 1 deepthought root 1103 May 15 16:17 ft_striteri.c
+-rw-r--r-- 1 deepthought root 1288 May 15 16:17 ft_strjoin.c
+-rw-r--r-- 1 deepthought root 1326 May 15 16:17 ft_strlcat.c
+-rw-r--r-- 1 deepthought root 1185 May 15 16:17 ft_strlcpy.c
+-rw-r--r-- 1 deepthought root 1025 May 15 16:17 ft_strlen.c
+-rw-r--r-- 1 deepthought root 1268 May 15 16:17 ft_strmapi.c
+-rw-r--r-- 1 deepthought root 1158 May 15 16:17 ft_strncmp.c
+-rw-r--r-- 1 deepthought root 1294 May 15 16:17 ft_strnstr.c
+-rw-r--r-- 1 deepthought root 1155 May 15 16:17 ft_strrchr.c
+-rw-r--r-- 1 deepthought root 1255 May 15 16:17 ft_strtrim.c
+-rw-r--r-- 1 deepthought root 1376 May 15 16:17 ft_substr.c
+-rw-r--r-- 1 deepthought root  970
+ May 15 16:17 ft_tolower.c
+-rw-r--r-- 1 deepthought root  971 May 15 16:17 ft_toupper.c
+-rw-r--r-- 1 deepthought root 2080 May 15 16:17 libft.h
+
+
+make: *** No rule to make target 'bonus'.  Stop.
+
+
+make: *** No rule to make target 'bonus'.  Stop.
+
+Grade: 0
+
+= Final grade: 0 ===============================================================
+
